@@ -21,10 +21,8 @@ void OAfiles()
 	char word[100];
 	while (fileS >> word)
 	{
-		
 		word[0] = tolower(word[0]);
 		if (word[0] == 'à' || word[0] == 'î' || word[0] == 'a' || word[0] == 'o' || word[0] == 'Î' || word[0] == 'À') fileR << word << " ";
-		
 		
 	}
 	fileS.close();
