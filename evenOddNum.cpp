@@ -36,5 +36,5 @@ void evenOddNum()
 	odd.close();
 	even.close();
 	cout << "Числа розділені на парні й непарні і записані в файли even.txt та odd.txt\n";
-	main();
+	showText();
 }

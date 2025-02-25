@@ -130,11 +130,13 @@
     <ClCompile Include="evenOddNum.cpp" />
     <ClCompile Include="hw_separation.cpp" />
     <ClCompile Include="OAfiles.cpp" />
+    <ClCompile Include="swapFiles.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h" />
     <ClInclude Include="OAfiles.h" />
     <ClInclude Include="evenOddNum.h" />
+    <ClInclude Include="swapFiles.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

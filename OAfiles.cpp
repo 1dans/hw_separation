@@ -29,5 +29,5 @@ void OAfiles()
 	fileS.close();
 	fileR.close();
 	cout << "Завдання виконано\n";
-	main();
+	showText();
 }

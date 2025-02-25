@@ -24,6 +24,9 @@
     <ClCompile Include="evenOddNum.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="swapFiles.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="OAfiles.h">
@@ -33,6 +36,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="evenOddNum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="swapFiles.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
