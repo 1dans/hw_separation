@@ -1,20 +1,27 @@
 #include "OAfiles.h"
+#include "main.h"
+#include "evenOddNum.h"
+
 #include <iostream>
+
 using namespace std;
 
 
 int main()
 {
     system("chcp 1251>null");
-	cout << "яке завданн€ ви хот≥ли би в≥дкрити?\n1 - ѕерезапис сл≥в з першою буквою о або а\n 2 - ѕерезапис парних та непарних чисел по окремим файлам\n 3 - ѕом≥н€ти файли м≥сц€ми\n";
-	int task;
-	cin >> task;
-	switch (task)
-	{
-	case 1:	OAfiles(); break;
-	case 2: break;
-	case 3: break;
-	default: break;
-	}
+	cout << "яке завданн€ ви хот≥ли би в≥дкрити?\n1 - ѕерезапис сл≥в з першою буквою о або а\n2 - ѕерезапис парних та непарних чисел по окремим файлам\n3 - ѕом≥н€ти файли м≥сц€ми\nq - вийти\n¬аш виб≥р: ";
+	char task;
+	do {
+		cin >> task;
+		switch (task)
+		{
+		case '1': OAfiles(); break;
+		case '2': evenOddNum(); break;
+		case '3': break;
+		case 'q': cout << "Ѕувайте!"; break;
+		default: cout << "“акого вар≥анту немаЇ.\n"; break;
+		}
+	} while (task!='q');
 	return 0;
 }

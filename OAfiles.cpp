@@ -1,4 +1,5 @@
 #include "OAfiles.h"
+#include "main.h"
 #include <iostream>
 #include <fstream>
 
@@ -28,4 +29,5 @@ void OAfiles()
 	fileS.close();
 	fileR.close();
 	cout << "Завдання виконано\n";
+	main();
 }
